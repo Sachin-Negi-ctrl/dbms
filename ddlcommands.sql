@@ -10,5 +10,7 @@ CREATE TABLE persons(
     CONSTRAINT pk_persons PRIMARY KEY(id)
 );
 
+ALTER TABLE persons -- Using ALTER command: Used to edit(add or delete a field) an existing table --
+ADD email VARCHAR(50) NOT NULL; 
 
 SELECT * FROM persons; -- This is used to view the table -- 
