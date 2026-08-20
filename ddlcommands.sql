@@ -1,6 +1,7 @@
-CREATE DATABASE personsdb;
+CREATE DATABASE personsdb; -- created database  -- 
 
-USE personsdb;
+USE personsdb; -- we have to  explicitly USE the database by the help of USE command for using it--
+
 CREATE TABLE persons(
 	id INT NOT NULL,
     person_name VARCHAR(50) NOT NULL,
@@ -9,6 +10,5 @@ CREATE TABLE persons(
     CONSTRAINT pk_persons PRIMARY KEY(id)
 );
 
-SHOW DATABASES;
 
-SELECT * FROM persons;
+SELECT * FROM persons; -- This is used to view the table -- 
