@@ -13,4 +13,7 @@ CREATE TABLE persons(
 ALTER TABLE persons -- Using ALTER command: Used to edit(add or delete a field) an existing table --
 ADD email VARCHAR(50) NOT NULL; 
 
+ALTER TABLE persons
+DROP COLUMN dob; -- Drop is used to delte a column/attribute -- 
+
 SELECT * FROM persons; -- This is used to view the table -- 
